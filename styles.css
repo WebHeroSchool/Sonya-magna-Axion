@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+.body-wrapper {
+  margin: auto;
+  width: 80%;
+}
+.header__burger {
+  display: none;
+}
+.header {
+  border: dashed 1px red;
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-menu
+.header-menu__link {
+  padding: 0 22px;
+}
+.header-breadcrumbs {
+  display: flex;
+  align-items: center;
+}
