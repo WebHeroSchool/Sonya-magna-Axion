@@ -24,7 +24,7 @@ body {
 }
 .header-nav__link {
   padding: 0 17px;
-  font: bold 12px/11px GothamPro-Light, arial, helvetica;
+  font: bold 12px/11px GothamPro, arial, helvetica;
   color: #000000;
   text-decoration: none;
 }
@@ -51,7 +51,7 @@ body {
 }
 .header-breadcrumbs__link {
   padding: 0 18px 0 36px;
-  font: bold 12px/11px GothamPro-Light, arial, helvetica;
+  font: bold 12px/11px GothamPro, arial, helvetica;
   color: #000000;
   text-decoration: none;
 }
@@ -61,7 +61,7 @@ body {
   align-items: center;
 }
 .breadcrumbs-cart__link {
-  font: bold 12px/11px GothamPro-Light, arial, helvetica;
+  font: bold 12px/11px GothamPro, arial, helvetica;
   color: #000000;
   text-decoration: none;
 }
@@ -81,7 +81,7 @@ body {
 .banner__title {
   width: 20%;
   padding-left: 60px;
-  font: bold 30px/29px GothamPro-Light, arial, helvetica;
+  font: bold 30px/29px GothamPro, arial, helvetica;
   color: #FFFFFF;
 }
 .banner-more {
@@ -90,7 +90,7 @@ body {
 }
 .banner-more__text {
   margin: 0;
-  font: 12px/11px GothamPro-Light, arial, helvetica;
+  font: 12px/11px GothamPro, arial, helvetica;
   color: #FFFFFF;
 }
 .banner-more__link {
@@ -103,7 +103,7 @@ body {
   margin-bottom: 26px;
 }
 .catalog__title {
-  font: bold 22px/21px GothamPro-Light, arial, helvetica;
+  font: bold 22px/21px GothamPro, arial, helvetica;
   text-align: center;
 }
 .catalog-items {
@@ -115,7 +115,7 @@ body {
   width: 82%;
 }
 .catalog-item__text {
-  font: 11px/12px GothamPro-Light, arial, helvetica;
+  font: 11px/12px GothamPro, arial, helvetica;
   margin: 0;
   padding: 24px 12px 0 12px;
 }
@@ -127,7 +127,7 @@ body {
   padding: 0 12px 21px 12px;
 }
 .catalog-item__price {
-  font: bold 14px/13px GothamPro-Light, arial, helvetica;
+  font: bold 14px/13px GothamPro, arial, helvetica;
 }
 .catalog-item__colors {
   display: flex;
@@ -193,4 +193,23 @@ body {
   border-radius: 50%;
   background: #257DA9;
   margin-right: 8px;
+}
+.presentation {
+  display: flex;
+  background: black;
+  height: 494px;
+  align-items: center;
+  justify-content: space-around;
+}
+.presentation-video__video {
+  width: 628px;
+  height: 345px;
+}
+.presentation-video__play {
+  position: absolute;
+  transform: translate(-590px, 250px);
+}
+.presentation-content {
+  color: white;
+  width: 28%;
 }
