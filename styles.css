@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+}
+.body-wrapper {
+  margin: auto;
+  width: 80%;
+}
+.header-burger {
+  display: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-top: 32px;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav__link {
+  padding: 0 17px;
+  font: bold 12px/11px GothamPro, arial, helvetica;
+  color: #000000;
+  text-decoration: none;
+}
+.header-nav__link:last-child {
+  padding-right: 0;
+}
+.header-nav__link:first-child {
+  padding-left: 45px;
+}
+.header-breadcrumbs {
+  display: flex;
+  align-items: center;
+}
+.header-breadcrumbs__row {
+  border: none;
+  background: url(images/Vector-row.svg) no-repeat;
+  background-position: bottom center;
+}
+.header-breadcrumbs__magnifier {
+  border: none;
+  background: none;
+  position: absolute;
+  transform: translateX(490%);
+}
+.header-breadcrumbs__link {
+  padding: 0 18px 0 36px;
+  font: bold 12px/11px GothamPro, arial, helvetica;
+  color: #000000;
+  text-decoration: none;
+}
+.breadcrumbs-cart {
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs-cart__link {
+  font: bold 12px/11px GothamPro, arial, helvetica;
+  color: #000000;
+  text-decoration: none;
+}
+.breadcrumbs-cart__image {
+  padding-left: 4px;
+}
+.header-breadcrumbs__flag {
+  padding-left: 18px;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(images/banner.jpg);
+  height: 280px;
+}
+.banner__title {
+  width: 20%;
+  padding-left: 60px;
+  font: bold 30px/29px GothamPro, arial, helvetica;
+  color: #FFFFFF;
+}
+.banner-more {
+  display: flex;
+  padding-left: 60px;
+}
+.banner-more__text {
+  margin: 0;
+  font: 12px/11px GothamPro, arial, helvetica;
+  color: #FFFFFF;
+}
+.banner-more__link {
+  background: url(images/arrow.svg) no-repeat;
+  background-position: center;
+  width: 5%;
+  padding-left: 6px;
+}
+.catalog {
+  margin-bottom: 26px;
+}
+.catalog__title {
+  font: bold 22px/21px GothamPro, arial, helvetica;
+  text-align: center;
+}
+.catalog-items {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog-item__image {
+  padding: 0 20px;
+  width: 82%;
+}
+.catalog-item__text {
+  font: 11px/12px GothamPro, arial, helvetica;
+  margin: 0;
+  padding: 24px 12px 0 12px;
+}
+.catalog-item__desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+  padding: 0 12px 21px 12px;
+}
+.catalog-item__price {
+  font: bold 14px/13px GothamPro, arial, helvetica;
+}
+.catalog-item__colors {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.catalog-item__grey {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #C4C4C4;
+  margin-right: 8px;
+}
+.catalog-item__black-big {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #0E1211;
+  margin-right: 8px;
+}
+.catalog-item__red {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #B62E3C;
+  margin-right: 8px;
+}
+.catalog-item__orange {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #FDB431;
+}
+.wrap-atlasblack {
+  margin-right: 37px;
+}
+.wrap-camel {
+  margin-right: 37px;
+}
+.wrap-mandelsmoke {
+  margin-right: 37px;
+}
+.wrap-cloud {
+  margin-right: 0px;
+}
+.catalog-item__beige-big {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #E29D69;
+  margin-right: 8px;
+}
+.catalog-item__darkgrey-big {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #762E31;
+  margin-right: 8px;
+}
+.catalog-item__blue-big {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #257DA9;
+  margin-right: 8px;
+}
+.presentation {
+  display: flex;
+  background: black;
+  height: 494px;
+  align-items: center;
+  justify-content: space-around;
+}
+.presentation-video__video {
+  width: 628px;
+  height: 345px;
+}
+.presentation-video__play {
+  position: absolute;
+  transform: translate(-590px, 250px);
+}
+.presentation-content {
+  color: white;
+  width: 28%;
+}
